@@ -40,7 +40,7 @@ class Product(Model):
         database = db
 
 
-Student.create_table(fail_silently=True)
+Product.create_table(fail_silently=True)
 
 class User(Model):
     user_name = CharField()
